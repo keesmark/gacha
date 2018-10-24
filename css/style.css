@@ -1,0 +1,51 @@
+body {
+  background-color: #eee;
+}
+
+#wrapper {
+  margin-top: 100px;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+/*  btn ------------------
+----------------------------*/
+.btn {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid blue;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1em;
+  color: blue;
+  margin-right: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  user-select: none;
+}
+.btn:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: blue;
+}
+
+/*  results ------------------
+----------------------------*/
+#results {
+  width: 30%;
+  height: 400px;
+  border: 1px solid blue;
+  background-color: #fff;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  color: blue;
+  font-size: 1em;
+  white-space: pre;
+  padding: 20px;
+  line-height: 2em;
+}
